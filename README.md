@@ -13,7 +13,7 @@ A Pokémon search app using HTML, CSS and Javascript.
 
 ## Project Overview
 
-The objective of this project was to make an app similar to "https://pokemon-search-app.freecodecamp.rocks" passing the test's requirements, practicing with **Fetch and promises** and **Asynchronous programming** learned on the last module of the course.
+The objective of this project was to make an app similar to "https://pokemon-search-app.freecodecamp.rocks" passing the test's requirements, practicing with **Fetch, promises** and **Asynchronous programming** learned on the last module of the course.
 
 <br>
 
