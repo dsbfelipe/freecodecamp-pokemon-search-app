@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  max-width: 100;
+  max-height: 100;
+  overflow: hidden;
+  background: linear-gradient(45deg, #e2e8f0, #f1f5f9);
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header > img {
+  width: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 140px;
+  margin-top: 1rem;
+}
+
+#search-input {
+  height: 48px;
+  width: 75%;
+  text-indent: 16px;
+  background-color: #f8fafc;
+  color: #1e293b;
+  border: 2px solid #0f284634;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+#search-input::placeholder {
+  text-indent: 16px;
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+#search-button {
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #475569;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#sprite {
+  width: 70%; 
+  align-self: center;
+  position: absolute;
+  top: 20%;
+  z-index: -7;
+}
+
+h1, h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #475569;
+  overflow: hidden;
+  margin-left: 12px;
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-size: 96px;
+  width: 90%;
+  max-width: 90%;
+  height: 124px;
+  color: ;
+}
+
+h2 {
+  margin-bottom: -32px;
+  font-size: 56px;
+}
+
+.main-stats {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+  background-color: #f8fafc;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  border-radius: 16px;
+  box-shadow: inset 0 0 10px #94a3b8c2;
+  margin-top: -8px;
+}
+
+.type-container, .height-container, .weight-container {
+  display: flex;
+  flex-direction: column;
+  color: #94a3b8;
+  width: 80px;
+}
+
+#types, #weight, #height {
+  font-size: 24px;
+  color: #334155;
+}
+
+#types {
+  background-color: #fcd54a;
+  padding: 0px 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  width: fit-content;
+  color: white;
+}
+
+.type-container {
+  gap: 4px;
+}
+
+.title, .subtitle {
+  position: absolute;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: -6px;
+  
+}
+
+.title {
+  top: 1rem;
+  left: 5rem;
+  font-size: 48px;
+  z-index: -1;
+  font-size: 32px;
+  color: #316bb22c;
+}
+
+.subtitle {
+  top: 5rem;
+  right: 5rem;
+  -webkit-text-stroke: 2px black;
+  color: #ffffff;
+}
+
+.pokeball {
+  position: absolute;
+  z-index: -99;
+  filter: grayscale(1);
+  opacity: 0.03;
+  width: 200%;
+  top: -5%;
+  left: -100%;
+}
+
+.pokeball-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.other-stats {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+  margin-top: 16px;
+  font-size: 32px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #475569;
+  padding-bottom: 8px;
+}
+
+.other-stats-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.other-stats-containers:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-size: 28px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}

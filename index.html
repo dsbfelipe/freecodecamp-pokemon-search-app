@@ -4,14 +4,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pokemon Search App</title>
   <script defer src="script.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div>
+  <div class="pokeball-container">
+    <img class="pokeball" src="assets/svgs/pokeball.svg" alt="">
+  </div>
+  <p class="title">freeCodeCamp</p>
+  <p class="subtitle">Search App</p>
+  <header><img src="assets/images/pokemon-logo.png" alt=""></header>
+  <div class="input-container">
+    <input id="search-input" type="text" placeholder="Insert a Pokémon name or ID..." required>
+    <button id="search-button"><img src="/assets/svgs/search.svg" alt=""></button>
+  </div>
 
+  <div class="data-container hide">
+    <div class="image-container">
+
+    </div>
+    <h2 id="pokemon-id"></h2>
+    <h1 id="pokemon-name"></h1>
+
+    <div class="main-stats">
+      <div class="type-container">
+        <p>Type</p>
+        <p id="types"></p>
+      </div>
+      <div class="weight-container">
+        <p>Weight</p>
+        <p id="weight"></p>
+      </div>
+      <div class="height-container">
+        <p>Height</p>
+        <p id="height"></p>
+      </div>
+    </div>
+    <div class="other-stats">
+      <div class="other-stats-containers hp-container">
+        <p class="label hp-label">HP:</p>
+        <p id="hp"></p>
+      </div>
+      <div class="other-stats-containers attack-container">
+        <p class="label attack-label">attack:</p>
+        <p id="attack"></p>
+      </div>
+      <div class="other-stats-containers defense-container">
+        <p class="label defense-label">defense:</p>
+        <p id="defense"></p>
+      </div>
+      <div class="other-stats-containers special-attack-container">
+        <p class="label special-attack-label">special-attack:</p>
+        <p id="special-attack"></p>
+      </div>
+      <div class="other-stats-containers special-defense-container">
+        <p class="label special-defense-label">special-defense:</p>
+        <p id="special-defense"></p>
+      </div>
+      <div class="other-stats-containers speed-container">
+        <p class="label speed-label">speed:</p>
+        <p id="speed"></p>
+      </div>
+    </div>
   </div>
 </body>
 
