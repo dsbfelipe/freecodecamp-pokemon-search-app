@@ -17,10 +17,8 @@ The objective of this project was to make an app similar to "https://pokemon-sea
 
 <br>
 
-<div align="center">
-
 ![Project's screenshot](screenshots/screenshot.png)
-_<p align="center">Project's screenshot</p>_
+<p align="left">Project's screenshot</p>
 
 </div>
 

@@ -113,4 +113,4 @@ searchButton.addEventListener("click", async () => {
   imageContainer.innerHTML = `<img id="sprite" src="${spriteUrl}" />`;
   displayData.classList.remove("hide");
   displayData.classList.add("show");
-})
+}) 
