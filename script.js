@@ -79,8 +79,6 @@ async function getStats(nameOrId) {
   return organizedStats;
 }
 
-console.log(getStats(25));
-
 searchInput.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
     searchButton.click();
@@ -91,7 +89,6 @@ searchButton.addEventListener("click", async () => {
   displayData.classList.remove("show");
   displayData.classList.add("hide");
   const input = searchInput.value.toLowerCase();
-  console.log(input);
   const stats = await getStats(input);
   const spriteUrl = await getImage(input);
 
